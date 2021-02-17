@@ -1,0 +1,39 @@
+body {
+    background:gray;
+    font-family: Arial;
+    color:aqua;
+}
+/*Heading,Picture,Caption*/
+#title {
+    text-align:center;
+    font-size:50px;
+}
+#img-div {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#image {
+    margin: auto;
+    width:70%;
+    height:70%;
+}
+#microphone-1 {
+    margin-right:10px;
+    width: 14%;
+    height: 14%;
+}
+#microphone-2 {
+    margin-left:10px;
+    width: 14%;
+    height: 14%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#img-caption {
+    text-align:center;
+}
+/*Footer*/
+footer {
+    text-align:center;
+}
